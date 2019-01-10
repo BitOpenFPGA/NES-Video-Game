@@ -10,4 +10,4 @@ The game is a two player tug of war game.
 - Both players start at the middle of the arena 
 - Two random buttons, one for each player, will be generated and displayed on the screen
 - If a player presses the button indicated on the screen, the rope will move closer to their side; however each correct button press by the opposing player will move the rope closer to the opponent's side 
-- Once the rope is all the way on the side of one player, the game will end 
+- Once the rope is all the way on the side of one player, the game will end  
