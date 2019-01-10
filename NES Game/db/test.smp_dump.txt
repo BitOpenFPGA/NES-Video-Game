@@ -1,0 +1,39 @@
+
+State Machine - |fill|buttonpress2:bp2|currentState
+Name currentState.first1 currentState.last1 currentState.start 
+currentState.start 0 0 0 
+currentState.first1 1 0 1 
+currentState.last1 0 1 1 
+
+State Machine - |fill|buttonpress:bp|currentState
+Name currentState.first1 currentState.last1 currentState.start 
+currentState.start 0 0 0 
+currentState.first1 1 0 1 
+currentState.last1 0 1 1 
+
+State Machine - |fill|NESReader:DJKHALED|topLOAD:GOLD5|control:grandmaster|current_state
+Name current_state.S_LOAD_BIT current_state.S_SET_CLK current_state.S_WAIT_CLK current_state.S_LOAD_A current_state.S_WAIT current_state.S_SET_LATCH current_state.S_WAIT_LATCH 
+current_state.S_WAIT_LATCH 0 0 0 0 0 0 0 
+current_state.S_SET_LATCH 0 0 0 0 0 1 1 
+current_state.S_WAIT 0 0 0 0 1 0 1 
+current_state.S_LOAD_A 0 0 0 1 0 0 1 
+current_state.S_WAIT_CLK 0 0 1 0 0 0 1 
+current_state.S_SET_CLK 0 1 0 0 0 0 1 
+current_state.S_LOAD_BIT 1 0 0 0 0 0 1 
+
+State Machine - |fill|NESReader:PRAYERS|topLOAD:GOLD5|control:grandmaster|current_state
+Name current_state.S_LOAD_BIT current_state.S_SET_CLK current_state.S_WAIT_CLK current_state.S_LOAD_A current_state.S_WAIT current_state.S_SET_LATCH current_state.S_WAIT_LATCH 
+current_state.S_WAIT_LATCH 0 0 0 0 0 0 0 
+current_state.S_SET_LATCH 0 0 0 0 0 1 1 
+current_state.S_WAIT 0 0 0 0 1 0 1 
+current_state.S_LOAD_A 0 0 0 1 0 0 1 
+current_state.S_WAIT_CLK 0 0 1 0 0 0 1 
+current_state.S_SET_CLK 0 1 0 0 0 0 1 
+current_state.S_LOAD_BIT 1 0 0 0 0 0 1 
+
+State Machine - |fill|gaymemastercontrol:GOD|current_state
+Name current_state.S_RESET2 current_state.S_DRAWR current_state.S_RESET1 current_state.S_DRAWL 
+current_state.S_DRAWL 0 0 0 0 
+current_state.S_RESET1 0 0 1 1 
+current_state.S_DRAWR 0 1 0 1 
+current_state.S_RESET2 1 0 0 1 

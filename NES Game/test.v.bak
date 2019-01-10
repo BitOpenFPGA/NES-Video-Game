@@ -1,0 +1,7 @@
+module gamecontrol (CLOCK_50, KEY, ); 
+	input CLOCK_50; 
+	input [3:0] KEY; 
+	
+	
+
+endmodule 
