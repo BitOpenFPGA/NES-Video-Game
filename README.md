@@ -1,5 +1,5 @@
 # NES-Video-Game
-A NES game controller to FPGA board adapter that is used to play a two player tug of war game.
+A NES game controller to FPGA board adapter that is used to play a two player tug of war game programmed on Quartus Prime
 
 The NES adapter sends and receives the appropriate signals from the NES controller and then using Finite State Machines (FSM) and logic elements, the adapter is able to translate the electrical signals into their corresponding button states (A, B, Start, Select etc...). 
 
